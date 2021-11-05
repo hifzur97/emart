@@ -8,7 +8,7 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "php": "7.4",
+        "php": "^7.4",
         "anandsiddharth/laravel-paytm-wallet": "^2.0.0",
         "arcanedev/no-captcha": "^12.0",
         "bacon/bacon-qr-code": "^2.0",
@@ -133,7 +133,7 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate"
-        ],
+        ]
     },
     "config": {
         "preferred-install": "dist",
